@@ -1,6 +1,6 @@
 # sdp-2019-kn-group8-sem
 
-> **„Bad programmers worry about the code. Good programmers worry about data structures and their relationships. (Linus Torvalds)“**
+> **„Bad programmers worry about the code. Good programmers worry about data structures and their relationships.“ (Linus Torvalds)**
 
 ## Resources
 
