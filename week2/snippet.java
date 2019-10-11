@@ -2,7 +2,7 @@
 public List<ExtractedMetrics> extract(RecordContext context, InputStream recordStream) throws IOException, ParseException {
 
    InputContext recordContext = new InputContext(context.getBundle().getId(), context.getFilePath());
-   List<Record> records = extractor.extract(recordStream, recordContext);
+   ArrayList<Record> records = extractor.extract(recordStream, recordContext);
    log.info("Extracted {} records from payload {}. Time taken: {} msec.", records.size(), recordContext.getBundleId());
    List<ExtractedMetrics> extractedMetrics = new ArrayList<>();
    for (Iterator<Record> it = records.iterator(); it.hasNext(); ) {
