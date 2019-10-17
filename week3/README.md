@@ -24,3 +24,6 @@ m.next(5) = (10 + 3 + 5) / 3
 Вход: (([{}])())
 Изход: true
 
+----
+
+https://en.wikipedia.org/wiki/Reverse_Polish_notation
